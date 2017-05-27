@@ -25,49 +25,64 @@
 		<body>
 
 			<div>
-				<a><img class="photoTop" src="assets/images/imgur-roc.jpg"></a>
+				<img class="photoTop border" src="assets/images/imgur-roc.jpg">
+				<div class="box border">
+					<p class="gameTitle">Know The Beta: A Rock Climbing Memory Game</p>
+					<p>How To Play:</p>
+					<p>1. Look to see how many moves the route has, that's the number to get!</p>
+					<p>2. Click on the Crimper, Heel Hook, Undercling, or Handjam buttons to make some moves.</p>
+					<p>3. If you pick the right combination of moves and the numbers match, you will reach the top!<p>
+					<p>4. If not... you fall!</p>
+				</div>
 			</div>
 
 			<div class="container">
-				<div class="box">
+				<div class="box2 border">
 					<h1 class="displayText spacer">This climb takes</h1>
-					<h1 class="displayText spacer2">_____</h1>
+					<h1 class="displayText spacer2">- <span id="moveGoal"></span> -</h1>
 					<h1 class="displayText spacer3">moves to reach the top!</h1>
 				</div>
 
-				<div class="box">
+				<div class="box2 border">
 					<h1 class="displayText spacer">You are now</h1>
-					<h1 class="displayText spacer2">_____</h1>
+					<h1 class="displayText spacer2">- <span id="movesDone"></span> -</h1>
 					<h1 class="displayText spacer3">moves higher!</h1>
 				</div>
 			</div>
 
-			<div class="container wrap">
+			<div id="moves" class="container wrap">
 				<div>
-					<a><img class="photo" src="assets/images/a86ce1d79f3b71987dd7780f0a5db848.jpg"></a>
+					<img  class="photo border crimp" src="assets/images/a86ce1d79f3b71987dd7780f0a5db848.jpg">
 				</div>
 
 				<div>
-					<a><img class="photo" src="assets/images/86490517.jpg"></a>
+					<img class="photo border heelHook" src="assets/images/86490517.jpg">
 				</div>
 
 				<div>
-					<a><img class="photo" src="assets/images/burr111908_090.jpg"></a>
+					<img class="photo border underCling" src="assets/images/burr111908_090.jpg">
 				</div>
 
 				<div>
-					<a><img class="photo" src="assets/images/crack8.jpg"></a>
+					<img class="photo border handJam" src="assets/images/crack8.jpg">
 				</div>
 			</div>
 
 			<div class="container">
-				<div class="box2">
-					<h1 class="displayText2 spacer4">Successful Ascents: ___</h1>
-					<h1 class="displayText2 spacer5">Failed Attemps: ___</h1>
+				<div class="box3 border">
+					<h1 class="displayText2">Successful Ascents: - <span id="winDisplay"></span> -</h1>
+					
+				</div>
+
+				<div class="box3 border">
+					<h1 class="displayText2">Failed Attemps: - <span id="lossDisplay"></span> -</h1>
 				</div>
 			</div>
 
+<!-- Link to jQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 
+<!-- Link to my javaScript file -->
 		<script src="assets/javaScript/game.js"></script>
 
 		</body>
