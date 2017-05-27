@@ -8,23 +8,26 @@ body {
 }
 
 p {
-	width: 484px;
-	margin-top: 20px;
-	margin-left: 26px;
+	width: 50%;
+	margin: 20px 0px 0px 80px;
 	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
-	color: #f6f6f6;
+	color: #ee5a58;
+}
+
+.textbox {
+	margin-top: -475px;
+	margin-bottom: 130px;
 }
 
 .gameTitle {
-	font-size: 21px;
+	font-size: 28px;
 	font-weight: 700;
-	color: #f6f6f6;
-	text-shadow: 4px 4px 2px #aa4d05;
+	text-shadow: 4px 4px 2px #4d5f86;
 }
 
 .photoTop {
 	width: 96%;
-	height: 400px;
+	height: 475px;
 	margin: 25px;
 	border-radius: 75px
 }
@@ -53,12 +56,13 @@ p {
 }
 
 .box {
-	width: 41%;
-	height: 321px;
-	margin: -387px 0px 0px 65px;
-	background-color: #d3955d;
+	width: 80%;
+	height: 75px;
+	margin: 0px 0px 70px 70px;
+	background-color: #93996a;
 	border-radius: 45px;
 	position: absolute;
+
 }
 
 .box2 {
@@ -66,6 +70,7 @@ p {
 	height: 150px;
 	background-color: #5f98b8;
 	margin-bottom: 25px;
+	margin-top: 120px;
 }
 
 .box3 {
@@ -94,6 +99,16 @@ p {
 	text-shadow: 4px 4px 2px #960402;
 }
 
+.displayText3 {
+	color: #f6f6f6;
+	font-size: 21px;
+	font-weight: 900;
+	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
+	text-align: center;
+	text-shadow: 4px 4px 2px #464b0a;
+}
+
+
 .spacer {
 	margin-top: 14px
 }
@@ -104,4 +119,8 @@ margin-top: 30px;
 
 .spacer3 {
 	margin-top: 25px;
+}
+
+.spacer4 {
+	margin-top: 20px;
 }
