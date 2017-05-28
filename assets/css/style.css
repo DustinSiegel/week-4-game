@@ -9,14 +9,15 @@ body {
 
 p {
 	width: 50%;
-	margin: 20px 0px 0px 80px;
+	margin: 20px 0px -6px 70px;
+	font-weight: 700;
 	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
 	color: #ee5a58;
 }
 
 .textbox {
-	margin-top: -475px;
-	margin-bottom: 130px;
+	margin-top: -495px;
+	margin-bottom: 150px;
 }
 
 .gameTitle {
@@ -56,10 +57,10 @@ p {
 }
 
 .box {
-	width: 80%;
+	width: 92%;
 	height: 75px;
-	margin: 0px 0px 70px 70px;
-	background-color: #93996a;
+	margin: 0px 0px 50px 50px;
+	background-color: rgba(238,90,88, .30);
 	border-radius: 45px;
 	position: absolute;
 
@@ -81,12 +82,21 @@ p {
 	margin-bottom: 25px;
 }
 
+.box4 {
+	width: 96%;
+	height: 32px;
+	border-radius: 45px;
+	background-color: #4c6b8d;
+	margin: 30px 0px 30px 0px;
+}
+
 .displayText {
 	color: #f6f6f6;
 	text-align: center;
 	font-size: 18PX;
 	font-weight: 700;
 	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
+	text-shadow: 4px 4px 2px #33587a;
 }
 
 .displayText2 {
@@ -106,6 +116,13 @@ p {
 	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
 	text-align: center;
 	text-shadow: 4px 4px 2px #464b0a;
+}
+
+.displayText4 {
+	color: #f6f6f6;
+	font-family: "avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
+	text-align: center;
+	margin-top: 2px;
 }
 
 
