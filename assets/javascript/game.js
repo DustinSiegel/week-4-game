@@ -29,13 +29,13 @@ $(".crimp").on("click", function() {
 	$("#movesDone").text(moveStack);
 
     if (moveStack === numberGoal) {
-   	alert("Nice Onsite!")
+   	alert('Nice onsite! You reached the top. Click the "Press Here to Begin" button to play again.')
    	wins ++;
    	$("#winDisplay").text(wins);
    	}
   
     else if (moveStack >= numberGoal) {
-   	alert("Falling!");
+   	alert('Falling!! Good thing the belayer was there to catch you. Click the "Press Here to Begin" button to play again.');
    	losses ++;
    	$("#lossDisplay").text(losses);
    	}
@@ -45,13 +45,13 @@ $(".heelHook").on("click", function() {
 	moveStack += movePowerB;
 	$("#movesDone").text(moveStack);
    	if (moveStack === numberGoal) {
-   	alert("Nice Onsite!")
+   	alert('Nice onsite! You reached the top. Click the "Press Here to Begin" button to play again.')
    	wins ++;
    	$("#winDisplay").text(wins);
    	}
   
     else if (moveStack >= numberGoal) {
-   	alert("Falling!");
+   	alert('Falling!! Good thing the belayer was there to catch you. Click the "Press Here to Begin" button to play again.');
    	losses ++;
    	$("#lossDisplay").text(losses);
    	}
@@ -62,13 +62,13 @@ $(".underCling").on("click", function() {
 	moveStack += movePowerC;
 	$("#movesDone").text(moveStack);
 	   	if (moveStack === numberGoal) {
-   	alert("Nice Onsite!")
+   	alert('Nice onsite! You reached the top. Click the "Press Here to Begin" button to play again.')
    	wins ++;
    	$("#winDisplay").text(wins);
    	}
   
    	else if (moveStack >= numberGoal) {
-   	alert("Falling!");
+   	alert('Falling!! Good thing the belayer was there to catch you. Click the "Press Here to Begin" button to play again.');
    	losses ++;
    	$("#lossDisplay").text(losses);
    	}
@@ -79,13 +79,13 @@ $(".handJam").on("click", function() {
 	moveStack += movePowerD;
    	$("#movesDone").text(moveStack);
 	   	if (moveStack === numberGoal) {
-   	alert("Nice Onsite!")
+   	alert('Nice onsite! You reached the top. Click the "Press Here to Begin" button to play again.')
    	wins ++;
    	$("#winDisplay").text(wins);
     	}
   
     else if (moveStack >= numberGoal) {
-    alert("Falling!");
+    alert('Falling!! Good thing the belayer was there to catch you. Click the "Press Here to Begin" button to play again.');
     losses ++;
     $("#lossDisplay").text(losses);
     }
