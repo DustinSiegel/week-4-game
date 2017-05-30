@@ -10,41 +10,44 @@ body {
 
 p {
 	width: 50%;
-	margin: 20px 0px -6px 70px;
+	margin: 10px 0px 0px 70px;
 	font-weight: 700;
 	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
-	color: #ee5a58;
+	color: #a82825;
 }
 
 .textbox {
-	margin-top: -495px;
+	margin-top: -540px;
 	margin-bottom: 150px;
 }
 
 .gameTitle {
+	margin-left: 70px;
+	margin-bottom: 30px;
 	font-size: 28px;
 	font-weight: 700;
-	text-shadow: 4px 4px 2px #4d5f86;
+	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
+	color: #ee5a58;
+	text-shadow: 4px 4px 2px #2e0403;
 }
 
 .photoTop {
 	width: 96%;
 	height: 475px;
-	margin: 25px;
+	margin: 50px 25px 25px 25px;
 	border-radius: 75px
 }
 
 .photo {
 	width: 200px;
 	height: 150px;
-	margin: auto;
 	border-radius: 40px;
-	z-index: 1;
+	margin-bottom: 20px;
 }
 
 .container {
 	display: flex;
-	flex-flow: row;
+	/*flex-flow: row;*/
 	justify-content: space-around;
 }
 
@@ -54,13 +57,13 @@ p {
 
 .border { 	
 	border-style: solid;
-	border-width: 7px;
+	border-width: 8px;
 }
 
 .box {
 	width: 92%;
 	height: 75px;
-	margin: 0px 0px 50px 50px;
+	margin: 35px 0px 50px 50px;
 	background-color: rgba(238,90,88, .30);
 	border-radius: 45px;
 	position: absolute;
@@ -72,14 +75,13 @@ p {
 	height: 150px;
 	background-color: #5f98b8;
 	margin-bottom: 25px;
-	margin-top: 120px;
+	margin-top: 160px;
 }
 
 .box3 {
 	width: 400px;
 	height: 100px;
 	background-color: #ee5a58;
-	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
@@ -105,7 +107,7 @@ p {
 	font-size: 22px;
 	font-weight: 800;
 	font-family:"Avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
-	margin-top: 34px;
+	margin-top: 30px;
 	text-align: center;
 	text-shadow: 4px 4px 2px #960402;
 }
@@ -123,12 +125,11 @@ p {
 	color: #f6f6f6;
 	font-family: "avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
 	text-align: center;
-	margin-top: 2px;
 }
 
 
 .spacer {
-	margin-top: 14px
+	margin-top: 10px
 }
 
 .spacer2 {
