@@ -8,6 +8,7 @@ body {
     height: 100%;
 }
 
+/*instruction text*/
 p {
 	width: 50%;
 	margin: 10px 0px 0px 70px;
@@ -16,11 +17,13 @@ p {
 	color: #a82825;
 }
 
+/*margins for the instruction text*/
 .textbox {
 	margin-top: -540px;
 	margin-bottom: 150px;
 }
 
+/*Styles the game title text*/
 .gameTitle {
 	margin-left: 70px;
 	margin-bottom: 30px;
@@ -31,6 +34,7 @@ p {
 	text-shadow: 4px 4px 2px #2e0403;
 }
 
+/*Styles the top photo*/
 .photoTop {
 	width: 96%;
 	height: 475px;
@@ -38,6 +42,7 @@ p {
 	border-radius: 75px
 }
 
+/*Styles the move buttons*/
 .photo {
 	width: 200px;
 	height: 150px;
@@ -45,21 +50,24 @@ p {
 	margin-bottom: 20px;
 }
 
+/*general peramiters of all containers*/
 .container {
 	display: flex;
-	/*flex-flow: row;*/
 	justify-content: space-around;
 }
 
+/*general peramiters for certain elements mobile responsiveness*/
 .wrap {
 	flex: wrap;
 }
 
+/*general peramiters for all borders*/
 .border { 	
 	border-style: solid;
 	border-width: 8px;
 }
 
+/*The look of the start button*/
 .box {
 	width: 92%;
 	height: 75px;
@@ -70,6 +78,7 @@ p {
 
 }
 
+/*The look of the goal number and moves done displays */
 .box2 {
 	width: 300px;
 	height: 150px;
@@ -78,6 +87,7 @@ p {
 	margin-top: 160px;
 }
 
+/*The look of the wins and losses displays*/
 .box3 {
 	width: 400px;
 	height: 100px;
@@ -85,14 +95,15 @@ p {
 	margin-bottom: 25px;
 }
 
+/*the look of the copy container*/
 .box4 {
-	width: 96%;
-	height: 32px;
-	border-radius: 45px;
+	width: 100%;
+	height: 40px;
 	background-color: #4c6b8d;
 	margin: 30px 0px 30px 0px;
 }
 
+/*The font and font look for the moves goal and moves done displays*/
 .displayText {
 	color: #f6f6f6;
 	text-align: center;
@@ -102,6 +113,7 @@ p {
 	text-shadow: 4px 4px 2px #33587a;
 }
 
+/*The font and look for the wins and losses display text*/
 .displayText2 {
 	color: #f6f6f6;
 	font-size: 22px;
@@ -112,6 +124,7 @@ p {
 	text-shadow: 4px 4px 2px #960402;
 }
 
+/*The font and look for the start button text*/
 .displayText3 {
 	color: #f6f6f6;
 	font-size: 21px;
@@ -121,25 +134,30 @@ p {
 	text-shadow: 4px 4px 2px #464b0a;
 }
 
+/*The font and look for the copy text*/
 .displayText4 {
 	color: #f6f6f6;
 	font-family: "avant Garde", "Helvetica Neue", "Helvetica", "sans-serif";
 	text-align: center;
+	margin-top: 4px;
 }
 
-
+/*A top margin for the top words in the moveStack and moveGoal displays*/
 .spacer {
 	margin-top: 10px
 }
 
+/*A top margin for the numbers displayed in the moveStack and moveGoal displays*/
 .spacer2 {
 margin-top: 30px;
 }
 
+/*A top margin for the bottom words in the moveStack and moveGoal displays*/
 .spacer3 {
 	margin-top: 25px;
 }
 
+/*A top margin for the start button*/
 .spacer4 {
 	margin-top: 20px;
 }
